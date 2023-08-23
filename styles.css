@@ -1,0 +1,46 @@
+section{
+    display: grid;
+    border: solid;
+    /* grid-template-columns: 50px 50px; */
+    
+    /* 
+        below creates an implicit row 
+    */
+    
+    grid-template-rows: 50px;
+
+    /** 
+        You can control implicit sizing like below:
+    */
+    
+    grid-auto-rows: 100px;
+
+    /** 
+        minmax()
+    */
+
+
+    /* 
+        flexible:
+    */
+
+    /* grid-template-columns: repeat(3, minmax(300px, 500px)); */
+
+
+    /**
+      responsive:
+    */
+
+    /* grid-template-columns: minmax(30%, 50%) 1fr 1fr; */
+
+    /**
+        Auto-fit and Auto-fill
+    */
+
+    
+
+}
+
+div{
+    border:solid;
+}
